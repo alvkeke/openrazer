@@ -598,6 +598,7 @@ class RazerHuntsmanV3Pro(_RazerDeviceBrightnessSuspend):
         self.key_manager.close()
 
 
+# TODO Should become _RippleKeyboard once kernel support for driver mode is implemented
 class RazerHuntsmanV3ProTKL(_RazerDeviceBrightnessSuspend):
     """
     Class for the Razer Huntsman V3 Pro TKL
